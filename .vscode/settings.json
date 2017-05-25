@@ -1,0 +1,10 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+    }
+}
