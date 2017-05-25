@@ -21,9 +21,13 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/font-awesome/css/font-awesome.css",
-        "styles.css"
+        "./styles/style.css",
+        "./styles/theme.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+         "../node_modules/bootstrap/dist/js/bootstrap.js"
+        ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

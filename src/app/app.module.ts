@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from "@angular/router";
 import { AppRoutes } from "./routes";
 
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,8 @@ import { AppRoutes } from "./routes";
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(AppRoutes)
+    RouterModule.forRoot(AppRoutes),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
